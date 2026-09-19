@@ -1,0 +1,11 @@
+{
+  "name": "rynek-shop-extreme",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node --expose-gc --max-old-space-size=64 --max-semi-space-size=1 index.js"
+  }
+}
